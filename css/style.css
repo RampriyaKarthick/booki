@@ -37,8 +37,59 @@ nav {
   text-decoration:none;
 }
 
+form {
+    display:flex;
+   
+}
 
 
+
+.location-icon{
+    background-color: var(--filter-bg-color);
+    padding:10px;
+    border-radius: 5px;
+}
+/* filters styling */
+
+.filters{
+    display:flex;
+    gap:30px
+   }
+  
+  
+.filters ul {
+display:flex;
+justify-content:center;
+gap:20px
+
+}
+
+.filters h3{
+    align-self: center;
+}
+
+.filter-link{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(208, 202, 202); 
+    border-radius: 50px; 
+    padding: 10px 0; 
+    margin: 10px; 
+    
+}
+.filter-link:hover{
+    background-color:rgba(128, 189, 227, 0.857);
+}
+
+.filter-link i{
+    margin-left:10px;
+    color:var(--main-color);
+}
+
+.filters li span{
+   margin:0 10px;
+    font-weight: bold;
+}
 
 
 /* .main-container {
@@ -118,6 +169,46 @@ a {
        font-weight:bolder;
        margin-top: 20px;
     }
+
+/* Activites section */
+.activites{
+    background:var(--main-bg-color);;
+}
+.activity-cards{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 10px;
+   border:#0065FC
+   
+}
+.activity-card{
+    border:1px solid black;
+    border-radius:15px;
+    box-shadow: #DEEBFF;
+}
+
+.activity-group img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:cover;
+
+
+
+}
+
+.activity-group a{
+text-decoration: none;
+}
+
+.activity-card h4{
+    font-weight: bold;
+    color: black;
+    padding:24px 20px;
+    text-align: center;
+
+}
+
 
 
 /****** Hebergements ***********/

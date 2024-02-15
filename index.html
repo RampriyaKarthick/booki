@@ -37,40 +37,49 @@
       <main>
         <h2>Trouvez votre hebergement pour des vacances de reve</h2>
         <p>En plein centre-ville ou en pleine nature</p>
-
+        
+<!-- html code for form -->
         <form method="post" action="#" class="form-location-search">
-          <div>
+          <div class="location-icon">
             <i class="fas fa-map-marker-alt"></i>
           </div>
-          <input
-            type="text"
-            value="Marseille, France"
-            placeholder="Choisir votre destination"
-          />
-          <button type="button" class="search-btn">Rechercher</button>
+          <div class="location-input">
+            <input
+              type="text"
+              value="Marseille, France"
+              placeholder="Choisir votre destination"
+            />
+          </div>
+          <div>
+            <button type="button" class="search-btn">Rechercher</button>
+          </div>
         </form>
 
+<!-- html code for filters -->
         <div class="filters">
           <h3>Filters</h3>
+
           <ul>
-            <li>
+            <li class="filter-link">
               <i class="fas fa-money-bill-wave"></i>
               <span>Economique</span>
             </li>
-            <li>
+            <li class="filter-link">
               <i class="fas fa-child icon-filter"></i>
               <span>Familial</span>
             </li>
-            <li>
+            <li class="filter-link">
               <i class="fas fa-heart"></i>
               <span>Romantique</span>
             </li>
-            <li>
+            <li class="filter-link">
               <i class="fas fa-dog"></i>
               <span>Animaux autorises</span>
             </li>
           </ul>
         </div>
+
+        <!-- html code for alert info -->
 
         <div class="alert-info">
           <i class="fas fa-info"></i>
@@ -299,7 +308,7 @@
           </section>
         </div>
         <section id="activites">
-          <h2>Activities in Marseille</h2>
+          <h2>Activites a Marseille</h2>
           <div class="activity-cards">
             <div class="activity-group">
               <a href="#">
@@ -314,7 +323,7 @@
             </div>
             <div class="activity-group">
               <a href="#">
-                <div class="activity-card">
+                <div class="activity-card" class="activity-paul">
                   <img
                     src="images/activites/paul-hermann.jpg"
                     alt="paul-hermann"
