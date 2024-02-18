@@ -36,6 +36,8 @@ nav a {
   text-decoration: none;
 }
 
+
+
 form {
   display: flex;
 }
@@ -381,16 +383,24 @@ ul {
   .header{
     display:flex;
     flex-direction: column;
+    border-bottom: 1px solid var(--secondary-color);
+   }
+
+   header nav{
+    margin:15px 0 !important;
    }
    .header img{
 margin:25px;
    }
    .header a{
-    margin:25px
+    margin:30px;
+   }
+
+   .header-link{
+    margin-bottom: 20px;
    }
  
   .header a:hover{
-   
     border-bottom: 1px solid var(--main-color);
   }
 
@@ -406,9 +416,38 @@ margin:25px;
     display:flex;
     flex-direction: column;
   }
+  
+#hebergements{
+    padding:10px 0;
+}
+
+#hebergements h2{
+    text-align: center;
+}
+.cards-hebergements a{
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+.cards-hebergements a .card{
+   
+    width:85%;
+    margin:5px;
+   
+    
+    }
+
+.cards-hebergements a .card img{
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width:100%;
+        margin:0px;
+       }
 
   .activity-cards .activity-group{
-   
-    width:100%
+   width:100%;
   }
+
 }
