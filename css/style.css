@@ -433,6 +433,7 @@ ul {
     margin-bottom: 15px;
   }
 
+ 
   .searchText {
     display: none; /* Hide the text on small screens */
   }
@@ -513,20 +514,24 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+    height: 125px;
     padding: 0px !important;
     margin: 0px !important;
   }
 
   .activity-cards{
     margin:10px 35px;
+    
   }
 
   .activity-cards .activity-group {
     width: 100%;
+    
   }
 
   .activity-card img {
     padding: 0px;
+    height:150px
   }
 
   #activites h2 {
