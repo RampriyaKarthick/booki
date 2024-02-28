@@ -407,6 +407,15 @@ ul {
   .populaires-cards .card-subtitle {
     font-size: 13px;
   }
+
+  .activity-cards .activity-group{
+    width:175px;
+   
+  }
+
+  .activity-cards .activity-group a{
+    height:750px
+  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -587,6 +596,7 @@ ul {
   .footer {
     display: flex;
     flex-direction: column;
+    margin-top:25px;
     padding-left: 10px;
   }
 
