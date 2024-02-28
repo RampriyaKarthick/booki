@@ -26,7 +26,9 @@ body {
 }
 
 .header a:hover {
+padding-top:10px;
   color: var(--main-color) !important;
+  border-top:2px solid var(--main-color)
 }
 
 nav {
@@ -201,6 +203,7 @@ a {
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
+ 
 }
 
 .hebergements-and-populaires .hebergements{
@@ -213,6 +216,11 @@ a {
 /****** Hebergements ***********/
 .hebergements {
   width: 65%;
+
+}
+
+.hebergements h2{
+    margin-top:0px;
 }
 
 .cards-hebergements {
@@ -238,6 +246,7 @@ a {
 
 .afficher{
     font-weight: bolder;
+    margin-top:25px;
 }
 
 /****** Populaires ***********/
@@ -253,13 +262,14 @@ a {
 
 .populaires-cards .card {
   width: 100%;
+  height:120px;
   display: flex;
-  margin-top: 33px;
+  margin-top: 20px;
 }
 
 .populaires-cards img {
   width: 33%;
-  height: 136px;
+  height: 116px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -422,12 +432,21 @@ ul {
     border-bottom: 1px solid var(--secondary-color);
   }
 
+ 
+
   .header img {
     margin: 15px;
   }
   .header a {
     margin: 30px;
   }
+
+  .header a:hover {
+    padding-bottom:13px;
+      color: var(--main-color) !important;
+      border-top:none;
+      border-bottom:2px solid var(--main-color)
+    }
 
   .header-link {
     margin-bottom: 15px;
@@ -519,6 +538,7 @@ ul {
     margin: 0px !important;
   }
 
+
   .activity-cards{
     margin:10px 35px;
     
@@ -536,6 +556,10 @@ ul {
 
   #activites h2 {
     padding-left: 35px;
+  }
+
+  .alert-info{
+    display:flex;
   }
 
   .filters {
