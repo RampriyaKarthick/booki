@@ -517,6 +517,10 @@ ul {
     margin: 0px !important;
   }
 
+  .activity-cards{
+    margin:10px 35px;
+  }
+
   .activity-cards .activity-group {
     width: 100%;
   }
@@ -526,7 +530,7 @@ ul {
   }
 
   #activites h2 {
-    padding-left: 20px;
+    padding-left: 35px;
   }
 
   .filters {
