@@ -19,10 +19,18 @@ body {
   justify-content: center;
 }
 
+
+
 .header {
+ 
   background-color: white;
   padding: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
+}
+
+.header .logo{
+  margin: 25px !important;
+  padding-top: 30px;
 }
 
 .header a:hover {
@@ -43,8 +51,13 @@ nav a {
   text-decoration: none;
 }
 
+.main-div h2, p{
+   margin:7px;
+  }
+
 form {
   display: flex;
+  margin-top: 30px;
 }
 .location-input {
   display: flex;
@@ -54,6 +67,7 @@ form {
   border: none;
   border-top: 1px solid var(--main-bg-color);
   border-bottom: 1px solid var(--main-bg-color);
+width:120px;
   font-weight: bolder;
 }
 
@@ -73,7 +87,10 @@ form {
 
 .search-btn {
   display: inline-block;
+ 
 }
+
+
 
 .searchText {
   display: inline-block; /* Ensure both elements are aligned */
@@ -88,9 +105,9 @@ form {
   align-items: center;
   background-color: var(--main-color);
   border: 1px solid var(--main-color);
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  padding: 15px 30px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 15px 15px;
   color: white;
   font-weight: bolder;
 }
@@ -99,13 +116,16 @@ form {
 
 .filters {
   display: flex;
-  gap: 30px;
-  margin-bottom: 20px;
+
+  margin: 20px 0;
+  margin-right: 0;
 }
 
 .filters ul {
+    margin:0px;
   display: flex;
-  gap: 20px;
+ 
+
 }
 
 .filters h3 {
@@ -114,7 +134,7 @@ form {
 
 .filter-link {
   display: flex;
-  border: 2px solid var(--main-bg-color);
+  border: 2px solid var(--secondary-color);
   border-radius: 50px;
   padding: 10px 0;
   margin: 10px;
@@ -140,7 +160,7 @@ form {
 .alert-info i {
   color: var(--main-color);
   font-size: smaller;
-  border: 2px solid var(--main-bg-color);
+  border: 2px solid var(--secondary-color);
   border-radius: 50%;
   padding: 7px;
   width: 10px;
@@ -170,7 +190,7 @@ a {
 .card {
   background-color: white;
   border-radius: 20px;
-  padding: 5px;
+ 
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
@@ -212,6 +232,7 @@ a {
 /****** Hebergements ***********/
 .hebergements {
   width: 65%;
+  
 }
 
 .hebergements h2 {
@@ -220,10 +241,12 @@ a {
 
 .cards-hebergements {
   display: flex;
+  width:100%;
+  height: 75%;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 25px;
 }
 .cards-hebergements a {
   width: 30%;
@@ -240,13 +263,18 @@ a {
 }
 
 .afficher {
-  font-weight: bolder;
-  margin-top: 25px;
+  font-weight:bolder;
+  margin-top: 40px;
 }
 
+#activites{
+    padding:30px;
+}
 /****** Populaires ***********/
 .populaires {
   width: 32%;
+  padding:0;
+
 }
 
 .populaires-title {
@@ -259,6 +287,8 @@ a {
   width: 100%;
   height: 120px;
   display: flex;
+  justify-content: center;
+  gap:px;
   margin-top: 20px;
 }
 
@@ -334,7 +364,7 @@ a {
   display: flex;
   justify-content: space-between;
 
-  margin-top: 100px;
+  margin-top: 50px;
   background-color: var(--main-bg-color);
 }
 
@@ -380,6 +410,7 @@ ul {
   }
 
   .cards-hebergements {
+    width:100%;
     gap: 25px;
   }
 
@@ -388,6 +419,7 @@ ul {
   }
 
   .cards-hebergements .card {
+    width:100%;
     height: 100%;
   }
 
@@ -399,11 +431,13 @@ ul {
   .populaires-cards {
     display: flex;
     flex-direction: row;
+    width:100%;
     justify-content: space-between;
   }
 
   .populaires-cards a {
-    width: 30%;
+    width: 32%;
+   
   }
 
   .populaires-cards .card-title {
@@ -470,7 +504,7 @@ ul {
   }
   .header-link a {
     border-bottom: 2px solid var(--secondary-color);
-    margin:0;
+    margin: 0;
   }
 
   .header-link {
@@ -561,7 +595,9 @@ ul {
     padding: 0px !important;
     margin: 0px !important;
   }
-
+  #activites{
+    padding:0px;
+}
   .activity-cards {
     margin: 10px 35px;
   }
@@ -615,7 +651,7 @@ ul {
   .footer {
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 20px;
     padding-left: 25px;
   }
 
