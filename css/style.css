@@ -33,7 +33,7 @@ body {
 }
 
 .header a:hover {
-  padding-top: 10px;
+ 
   color: var(--main-color) !important;
   border-top: 2px solid var(--main-color);
 }
@@ -390,7 +390,7 @@ a {
 
 .activity-group img {
   width: 100%;
-  height: 400px;
+  height: 350px;
   object-fit: cover;
   border-radius: 15px 15px 0 0;
 }
@@ -442,10 +442,19 @@ ul {
   .hebergements-and-populaires {
     flex-direction: column;
   }
+.populaires{
+    height:250px;
+}
+ 
+.section-title h2{
+    margin-bottom: 0 !important ;
+}
 
-  #hebergements{
-    height:550px;
-  }
+.main-div h2{
+    font-size:18px;
+    font-weight: bolder;
+}
+
   .filters {
     flex-direction: column;
     gap: 0px;
@@ -475,7 +484,9 @@ ul {
 
   .populaires {
     width: 100%;
+    height:220px;
     margin-top: 50px;
+    padding-bottom: 0 !important;
   }
 
   .populaires-cards {
@@ -483,11 +494,17 @@ ul {
     flex-direction: row;
     width:100%;
     justify-content: space-between;
+   
   }
 
   .populaires-cards a {
     width: 32%;
    
+   
+  }
+
+  .populaires-cards .card{
+    margin-top: 0;
   }
 
   .populaires-cards .card-title {
@@ -499,7 +516,7 @@ ul {
   }
 
   .activity-cards .activity-group {
-    width: 175px;
+    width: 250px;
   }
 
   .activity-cards .activity-group a {
@@ -510,8 +527,15 @@ ul {
     height: 300px;
   }
 
+  
+
   .activity-group img {
     height: 230px;
+  }
+
+  .activity-group h4{
+margin-top:0;
+padding:10px 5px;
   }
 }
 
@@ -571,6 +595,13 @@ ul {
 
   }
 
+  .populaires{
+    height:470px;
+}
+
+.populaires-title .section-title{
+    margin-bottom: 10px;
+}
   .header-link {
    
     display: flex;
@@ -590,6 +621,10 @@ ul {
     width: 70%;
   }
 
+  .location-input input {
+    width:225px;
+  }
+
   .form-location-search button {
     padding: 10px 15px !important;
     border-top-left-radius: 10px;
@@ -607,6 +642,10 @@ ul {
 
   .filter-link{
     margin:7px 2px !important;
+  }
+
+  .cards-hebergements{
+    display:inline;
   }
   .hebergements-and-populaires {
     flex-direction: column-reverse;
@@ -638,13 +677,23 @@ ul {
   .populaires-cards {
     display: flex;
     flex-direction: column;
+   
+    
   }
+.card{
+    margin-bottom: 5px;
+}
+  .populaires-cards
+.section-title{
+    margin-top: 0;
+}
   .populaires-cards a {
     width: 100%;
   }
   .activity-cards {
     display: flex;
     flex-direction: column;
+    gap:1px;
   }
 
   #hebergements {
@@ -653,6 +702,7 @@ ul {
 
   #hebergements h2 {
     text-align: center;
+    font-size:22px;
   }
   .cards-hebergements a {
     display: flex;
@@ -722,7 +772,7 @@ ul {
   }
 
   .filter-link {
-    margin: 0px;
+    margin: 5px 0;
   }
 
   .afficher {
