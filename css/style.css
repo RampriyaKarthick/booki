@@ -31,7 +31,9 @@ body {
 .header .logo{
   padding-top: 30px;
 }
-
+.header a {
+    padding:10px;
+}
 .header a:hover {
  
   color: var(--main-color) !important;
@@ -376,6 +378,7 @@ a {
 .activity-cards {
 height:auto;
   display: flex;
+  gap: 10px;
   justify-content: space-between;
   border: var(--main-color);
 }
